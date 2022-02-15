@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+}
+
+.logo {
+  width: 180px;
+  height: 47px;
+}
+
+.header {
+  width: 1440px;
+  height: 840px;
+  background: #3030C1;
+  padding: 4% 9% 28% 9%;
+}
+
+.header__main {
+  padding-top: 8%;
+}
+
+.header__text {
+  position: relative;
+  width: 45%;
+}
+
+.header__title {
+  font: 800 45px/55px Gilroy;
+  color: #FFFFFF;
+}
+
+.header__subtitle {
+  font: 800 30px/37px Gilroy;
+  color: #FFCC33;
+  margin-bottom: 0;
+}
+
+.header__content {
+  margin: 0;
+  font: 300 20px/23px Gilroy;
+  color: #FFFFFF;
+}
+
+.header__button {
+  font: 900 20px/24px Montserrat;
+  background: #FFCC33;
+  color: #3030C1;
+  text-align: center;
+  width: 216px;
+  height: 54px;
+  padding: 15px 23px;
+  transition: opacity .5s;
+  margin-top: 32px;
+  border: 0;
+}
+
+
+.header__button :hover {
+  opacity: .5;
+}
+
+.header__pic {
+  position: absolute;
+  right: 9%;
+  top: 20%;
+}
