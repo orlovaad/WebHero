@@ -31,7 +31,7 @@ body {
 .header__subtitle {
   font: 800 30px/37px Gilroy;
   color: #FFCC33;
-  margin-bottom: 0;
+  margin-bottom: 5px;
 }
 
 .header__content {
