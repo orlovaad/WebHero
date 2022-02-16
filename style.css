@@ -8,58 +8,53 @@ body {
 }
 
 .header {
-  width: 1440px;
-  height: 840px;
-  background: #3030C1;
-  padding: 4% 9% 28% 9%;
+  background: #3030c1;
+  padding: 60px 130px 190px 130px;
 }
 
 .header__main {
-  padding-top: 8%;
+  display: flex;
+  padding-top: 85px;
 }
 
 .header__text {
-  position: relative;
-  width: 45%;
+  margin-top: 25px;
+  width: 52%;
 }
 
 .header__title {
   font: 800 45px/55px Gilroy;
-  color: #FFFFFF;
+  color: #fff;
+  margin-bottom: 32px;
 }
 
 .header__subtitle {
   font: 800 30px/37px Gilroy;
-  color: #FFCC33;
+  color: #ffcc33;
   margin-bottom: 5px;
+  width: 80%;
 }
 
 .header__content {
-  margin: 0;
   font: 300 20px/23px Gilroy;
-  color: #FFFFFF;
+  color: #fff;
+  margin-top: 0;
+  margin-bottom: 30px;
 }
 
 .header__button {
   font: 900 20px/24px Montserrat;
   background: #FFCC33;
-  color: #3030C1;
+  color: #3030c1;
   text-align: center;
   width: 216px;
   height: 54px;
   padding: 15px 23px;
   transition: opacity .5s;
-  margin-top: 32px;
   border: 0;
 }
 
-
-.header__button :hover {
+.header__button:hover {
   opacity: .5;
-}
-
-.header__pic {
-  position: absolute;
-  right: 9%;
-  top: 20%;
+  cursor: pointer;
 }
