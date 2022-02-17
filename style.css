@@ -1,5 +1,6 @@
 body {
   margin: 0;
+
 }
 
 .logo {
@@ -8,8 +9,9 @@ body {
 }
 
 .header {
-  background: #3030c1;
   padding: 60px 130px 190px 130px;
+  width: 100%;
+  background: #3030c1;
 }
 
 .header__main {
@@ -61,4 +63,67 @@ body {
 
 .header__pic{
   flex-grow: 2;
+}
+
+.wrapper {
+  background: #fff;
+}
+
+
+
+/* Mobile version */
+@media (max-width: 1150px) {
+  .logo {
+    width: 93px;
+    height: 24px;
+  }
+
+  .header {
+    background: #3030c1;
+    padding: 38px 0px 50px 30px;
+    width: 100%;
+  }
+
+  .header__main {
+    display: block;
+    padding-top: 0px;
+  }
+
+  .header__text {
+    width: 100%;
+  }
+
+  .header__title {
+    width: 70%;
+    font: 800 25px/31px Gilroy;
+    color: #fff;
+    margin-bottom: 23px;
+  }
+
+  .header__subtitle {
+    width: 80%;
+    font: 800 20px/25px Gilroy;
+    margin-bottom: 0px;
+  }
+
+  .header__content {
+    width: 80%;
+    font: 300 15px/17px Gilroy;
+    margin-bottom: 25px;
+  }
+
+  .header__pic{
+      width: 259px;
+      height: 213px;
+    }
+
+  .header__button {
+    display: none;
+  }
+}
+
+@media (min-width: 1440px) {
+  .header__main {
+    width: 1280px;
+  }
 }
