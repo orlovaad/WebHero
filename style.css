@@ -10,13 +10,13 @@ body {
 
 /* Header */
 .header {
-  padding: 60px 130px 190px 130px;
-  width: 100%;
+  padding: 60px 9% 190px 9%;
   background: #3030c1;
 }
 
 .header__main {
   display: flex;
+  justify-content: flex-start;
   padding-top: 78px;
   max-width: 1280px;
 }
