@@ -7,14 +7,19 @@ body {
   height: 47px;
 }
 
+/* Header */
 .header {
+  padding: 60px 9% 190px 9%;
   background: #3030c1;
-  padding: 60px 130px 190px 130px;
+  display: flex;
+  justify-content: center;
 }
 
 .header__main {
   display: flex;
-  padding-top: 85px;
+  justify-content: space-between;
+  padding-top: 78px;
+  max-width: 1280px;
 }
 
 .header__text {
@@ -32,7 +37,7 @@ body {
   font: 800 30px/37px Gilroy;
   color: #fc3;
   margin-bottom: 5px;
-  width: 80%;
+  width: 70%;
 }
 
 .header__content {
@@ -40,6 +45,7 @@ body {
   color: #fff;
   margin-top: 0;
   margin-bottom: 30px;
+  width: 80%;
 }
 
 .header__button {
@@ -60,5 +66,116 @@ body {
 }
 
 .header__pic{
-  flex-grow: 2;
+  flex-shrink: 1;
+}
+
+.wrapper {
+  background: #fff;
+}
+
+/* Wrapper */
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  font: 800 40px/49px Gilroy;
+  margin-top: 55px;
+  margin-bottom: 30px;
+}
+
+.plans {
+  display: flex;
+  justify-content: center;
+  padding: 0 10px;
+  max-width: 1280px;
+}
+
+.plans__wrap{
+  width: 380px;
+  height: 401px;
+  background: #fbfbfb;
+  box-shadow: 0 0 30px #d5d5d5;
+  text-align: center;
+  margin: 0 10px;
+}
+
+.plans__logo {
+  width: 115px;
+  height: 115px;
+  padding-top: 45px;
+  padding-bottom: 0px;
+}
+
+.plans__subtitle {
+  font: 800 30px/37px Gilroy;
+  color: #3030c1;
+  padding: 0px 40px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.plans__text {
+  font: 800 20px/25px Gilroy;
+  padding: 0px 65px;
+}
+
+.title-content {
+  font: 300 30px/35px Gilroy;
+  width: 70%;
+  text-align: center;
+  margin: 0 16% 30px 16%;
+}
+
+/* Mobile version */
+@media (max-width: 1150px) {
+  .logo {
+    width: 93px;
+    height: 24px;
+  }
+
+  .header {
+    padding: 38px 13% 50px 13%;
+  }
+
+  .header__main {
+    display: block;
+    padding-top: 0px;
+  }
+
+  .header__text {
+    width: 100%;
+  }
+
+  .header__title {
+    width: 100%;
+    font-size: 25px;
+    line-height: 31px;
+    margin-bottom: 23px;
+  }
+
+  .header__subtitle {
+    width: 100%;
+    font-size: 20px;
+    line-height: 25px;
+    margin-bottom: 0px;
+  }
+
+  .header__content {
+  width: 100%;
+    font-size: 15px;
+    line-height: 17px;
+    margin-bottom: 25px;
+  }
+
+  .header__pic{
+      width: 259px;
+      height: 213px;
+    }
+
+  .header__button {
+    display: none;
+  }
 }
