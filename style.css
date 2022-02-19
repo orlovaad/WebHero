@@ -9,7 +9,7 @@ body {
 
 /* Header */
 .header {
-  padding: 60px 9% 190px 9%;
+  padding: 60px 9% 168px 9%;
   background: #3030c1;
   display: flex;
   justify-content: center;
@@ -18,12 +18,11 @@ body {
 .header__main {
   display: flex;
   justify-content: space-between;
-  padding-top: 78px;
+  padding-top: 100px;
   max-width: 1280px;
 }
 
 .header__text {
-  margin-top: 25px;
   width: 52%;
 }
 
@@ -105,9 +104,7 @@ body {
 .plans__logo {
   width: 115px;
   height: 115px;
-  padding-top: 45px;
-  padding-bottom: 0px;
-  margin-bottom: 20px;
+  padding-top: 40px;
 }
 
 .plans__subtitle {
@@ -129,9 +126,17 @@ body {
   margin: 0 16% 30px 16%;
 }
 
+/* Rquest */
+
+.request {
+  width: 100%;
+  background: #f0fbff;
+}
+
+
 
 /* Mobile version */
-@media (max-width: 1280px) {
+@media (max-width: 1200px) {
 
   /* Header */
   .logo {
@@ -225,9 +230,17 @@ body {
     font-size: 18px;
     line-height: 21px;
     margin: 10px 10% 30px 10%;
-
   }
 
+@media (min-width: 800px) {
 
+  .plans {
+    flex-direction: row;
+  }
 
+  .plans__wrap{
+    width: 259px;
+    height: 273px;
+    margin: 0 10px;
+  }
 }
