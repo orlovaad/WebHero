@@ -68,10 +68,6 @@ body {
   flex-shrink: 1;
 }
 
-.wrapper {
-  background: #fff;
-}
-
 /* Wrapper */
 .wrapper {
   display: flex;
@@ -83,6 +79,8 @@ body {
   font: 800 40px/49px Gilroy;
   margin-top: 55px;
   margin-bottom: 30px;
+  color: #3a3a3a;
+  text-align: center;
 }
 
 .plans {
@@ -117,23 +115,66 @@ body {
 .plans__text {
   font: 800 20px/25px Gilroy;
   padding: 0px 65px;
+  color: #3a3a3a;
 }
 
 .title-content {
   font: 300 30px/35px Gilroy;
   width: 70%;
   text-align: center;
-  margin: 0 16% 30px 16%;
+  margin: 0 16% 70px 16%;
+  color: #3a3a3a;
 }
 
 /* Rquest */
-
 .request {
   width: 100%;
   background: #f0fbff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
+.request__form {
+  color: #878787;
+  font: 300 20px/23px Gilroy;
+  width: 350px;
+  height: 80px;
+  margin: 15px 0;
+  padding-left: 28px;
+  border: 0px;
+}
 
+.form__button {
+  font: 900 20px/24px Montserrat;
+  background: #ffda45;
+  text-align: center;
+  width: 380px;
+  height: 80px;
+  padding: 28px 90px;
+  transition: opacity .5s;
+  border: 0;
+  margin: 60px 0 70px;
+  }
+
+.header__button:hover {
+  opacity: .5;
+  cursor: pointer;
+}
+
+/* Footer */
+footer {
+  background: #00008b;
+  color: #fff;
+  font: normal 15px/18px Roboto;
+  height: 120px;
+  line-height: 120px;
+  padding-left: 9%;
+}
+
+#footer {
+  margin: 0;
+}
 
 /* Mobile version */
 @media (max-width: 1200px) {
@@ -145,7 +186,7 @@ body {
   }
 
   .header {
-    padding: 38px 13% 55px 13%;
+    padding: 44px 13% 55px 13%;
   }
 
   .header__main {
@@ -193,6 +234,7 @@ body {
     line-height: 25px;
     margin-top: 45px;
     margin-bottom: 20px;
+    padding: 0 10px;
   }
 
   .plans {
@@ -229,7 +271,40 @@ body {
   .title-content {
     font-size: 18px;
     line-height: 21px;
-    margin: 10px 10% 30px 10%;
+    margin: 10px 10% 55px;
+  }
+
+  /* Rquest */
+  .request__form {
+    font-size: 10px;
+    line-height: 12px;
+    width: 241px;
+    height: 45px;
+    margin: 5px 0;
+    padding-left: 17px;
+  }
+
+  .form__button {
+    font-size: 10px;
+    line-height: 12px;
+    width: 260px;
+    height: 45px;
+    margin-bottom: 45px;
+    padding: 17px 80px;
+    margin: 23px 0 40px;
+  }
+
+  .header__button:hover {
+    opacity: .5;
+    cursor: pointer;
+  }
+
+/* Footer */
+  footer {
+    font-size: 10px;
+    line-height: 12px;
+    height: 60px;
+    line-height: 60px;
   }
 
 @media (min-width: 800px) {
