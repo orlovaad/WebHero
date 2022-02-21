@@ -164,7 +164,7 @@ body {
   }
 
 .form__button:hover {
-  transform: scale(1.2, 1.2);
+  transform: scale(1.2);
   color: #ffda45;
   background: #878787;
   cursor: pointer;
@@ -301,7 +301,7 @@ body {
   }
 
   .form__button:hover {
-    transform: scale(1.2, 1.2);
+    transform: scale(1.2);
   }
 
 /* Footer */
