@@ -129,7 +129,7 @@ body {
 }
 
 /* Request */
-form {
+.form {
   display: flex;
   flex-direction: column;
 }
@@ -164,11 +164,9 @@ form {
   }
 
 .form__button:hover {
-  width: 400px;
-  height: 90px;
+  transform: scale;
   color: #ffda45;
   background: #878787;
-  margin-bottom: 50px;
   cursor: pointer;
 }
 
@@ -303,9 +301,7 @@ form {
   }
 
   .form__button:hover {
-    width: 280px;
-    height: 55px;
-    margin-bottom: 20px;
+    transform: scale;
   }
 
 /* Footer */
