@@ -164,7 +164,11 @@ body {
   }
 
 .form__button:hover {
+<<<<<<< HEAD
   transform: scale(1.2);
+=======
+  transform: scale;
+>>>>>>> 2d6112fd34a29910ba557eab33c96acf70832fd1
   color: #ffda45;
   background: #878787;
   cursor: pointer;
@@ -301,7 +305,11 @@ body {
   }
 
   .form__button:hover {
+<<<<<<< HEAD
     transform: scale(1.2);
+=======
+    transform: scale;
+>>>>>>> 2d6112fd34a29910ba557eab33c96acf70832fd1
   }
 
 /* Footer */
